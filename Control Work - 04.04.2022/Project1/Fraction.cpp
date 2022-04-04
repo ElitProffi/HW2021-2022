@@ -2,6 +2,12 @@
 
 using namespace std;
 
+Fraction::Fraction()
+{
+	a = 1;
+	b = 1;
+}
+
 Fraction::Fraction(long long a, long long b) : a(a), b(b) {}
 
 Fraction::Fraction(const Fraction& fraction) : a(fraction.a), b(fraction.b) {}

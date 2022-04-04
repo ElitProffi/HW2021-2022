@@ -8,6 +8,8 @@ private:
 	long long a;
 	long long b;
 public:
+	Fraction();
+
 	Fraction(long long a = 0, long long b = 0);
 
 	Fraction(const Fraction& complex);
